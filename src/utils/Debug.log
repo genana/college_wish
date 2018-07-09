@@ -1,0 +1,221 @@
+2018-02-25 11:25:35,095 ERROR   : 
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\xls2db.py", line 207, in read_xls
+    if len(row_data[0])==0:
+TypeError: object of type 'float' has no len()
+2018-02-25 11:26:48,135 ERROR   : 
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\xls2db.py", line 104, in write_db
+    c.executemany(sql, sheet_cont)
+sqlite3.OperationalError: table tmp has 14 columns but 7 values were supplied
+2018-02-25 11:26:48,135 ERROR   : 
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\xls2db.py", line 104, in write_db
+    c.executemany(sql, sheet_cont)
+sqlite3.OperationalError: table tmp has 14 columns but 7 values were supplied
+【2018-02-25 11:28:37,402 ERROR   : 】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\xls2db.py", line 207, in read_xls
+    if len(row_data[0])==0:
+TypeError: object of type 'float' has no len()
+【2018-02-25 11:32:13,639 ERROR   : 】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\xls2db.py", line 104, in write_db
+    c.executemany(sql, sheet_cont)
+sqlite3.OperationalError: table tmp has 14 columns but 7 values were supplied
+【2018-02-25 11:36:28,252 ERROR   : 】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\xls2db.py", line 104, in write_db
+    c.executemany(sql, sheet_cont)
+sqlite3.OperationalError: table tmp has 14 columns but 7 values were supplied
+【2018-02-25 11:41:52,418 ERROR   : 】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\xls2db.py", line 104, in write_db
+    c.executemany(sql, sheet_cont)
+sqlite3.OperationalError: table tmp has 14 columns but 7 values were supplied
+【2018-02-25 11:41:52,433 ERROR   : 】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\xls2db.py", line 104, in write_db
+    c.executemany(sql, sheet_cont)
+sqlite3.OperationalError: table tmp has 14 columns but 7 values were supplied
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\xls2db.py", line 236, in xls2db
+    state = write_db(sheet_labels[i], sheet_conts[i], conn, db_file)
+  File "D:\srcdata\python\college_wish\src\utils\xls2db.py", line 120, in write_db
+    os.remove(db_file)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'D:/srcdata/python/college_wish/src/data/Sheet1.db'
+【2018-02-25 11:41:52,433 ERROR   : 】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\xls2db.py", line 104, in write_db
+    c.executemany(sql, sheet_cont)
+sqlite3.OperationalError: table tmp has 14 columns but 7 values were supplied
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\xls2db.py", line 236, in xls2db
+    state = write_db(sheet_labels[i], sheet_conts[i], conn, db_file)
+  File "D:\srcdata\python\college_wish\src\utils\xls2db.py", line 120, in write_db
+    os.remove(db_file)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'D:/srcdata/python/college_wish/src/data/Sheet1.db'
+【2018-02-25 11:44:30,013 ERROR   : 】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\xls2db.py", line 231, in xls2db
+    state = write_db(sheet_labels[i], sheet_conts[i], conn, db_file)
+TypeError: write_db() takes 3 positional arguments but 4 were given
+【2018-02-25 11:45:10,870 ERROR   : 】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\xls2db.py", line 104, in write_db
+    c.executemany(sql, sheet_cont)
+sqlite3.OperationalError: table tmp has 14 columns but 7 values were supplied
+【2018-02-25 17:48:47,575 ERROR   : 】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\xls2db.py", line 182, in read_xls
+    workbook = xlrd.open_workbook(filename=xls_name)
+  File "H:\Dev\anaconda\lib\site-packages\xlrd\__init__.py", line 116, in open_workbook
+    with open(filename, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../data/样本数据.xlsx'
+【2018-02-25 17:48:47,619 ERROR   : 】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\xls2db.py", line 232, in xls2db
+    conn.close()
+UnboundLocalError: local variable 'conn' referenced before assignment
+【2018-02-25 17:48:47,619 ERROR   : 】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\xls2db.py", line 232, in xls2db
+    conn.close()
+UnboundLocalError: local variable 'conn' referenced before assignment
+【2018-03-09 15:18:18,751 ERROR   : query_db:select_sqls】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\query_db.py", line 100, in query_db
+    cursor = c.execute(sql_stat)
+sqlite3.OperationalError: no such table: 北京
+【2018-03-09 15:19:06,669 ERROR   : query_db:select_sqls】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\query_db.py", line 100, in query_db
+    cursor = c.execute(sql_stat)
+sqlite3.OperationalError: no such table: 北京
+【2018-03-09 15:19:06,669 ERROR   : query_db:select_sqls】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\query_db.py", line 100, in query_db
+    cursor = c.execute(sql_stat)
+sqlite3.OperationalError: no such table: 北京
+【2018-03-09 15:22:02,055 ERROR   : query_db:select_sqls】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\query_db.py", line 100, in query_db
+    cursor = c.execute(sql_stat)
+sqlite3.OperationalError: no such table: 北京
+【2018-03-09 15:23:57,749 ERROR   : query_db:select_sqls】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\query_db.py", line 100, in query_db
+    cursor = c.execute(sql_stat)
+sqlite3.OperationalError: no such table: 北京
+【2018-03-09 15:23:57,749 ERROR   : query_db:select_sqls】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\query_db.py", line 100, in query_db
+    cursor = c.execute(sql_stat)
+sqlite3.OperationalError: no such table: 北京
+【2018-03-09 15:26:13,254 ERROR   : query_db:select_sqls】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\query_db.py", line 100, in query_db
+    cursor = c.execute(sql_stat)
+sqlite3.OperationalError: no such table: 北京
+【2018-04-01 11:57:47,595 ERROR   : query_db:select_sqls】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\cipherDB.py", line 71, in query_db
+    conn = sqlite.connect(db_file)
+pysqlcipher3.dbapi2.OperationalError: unable to open database file
+【2018-04-01 12:10:01,501 ERROR   : 】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\cipherDB.py", line 91, in write_db
+    );'''.format(table_name))
+pysqlcipher3.dbapi2.DatabaseError: file is not a database
+【2018-04-01 12:10:01,650 ERROR   : 】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\cipherDB.py", line 91, in write_db
+    );'''.format(table_name))
+pysqlcipher3.dbapi2.DatabaseError: file is not a database
+【2018-04-01 12:10:01,650 ERROR   : 】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\cipherDB.py", line 91, in write_db
+    );'''.format(table_name))
+pysqlcipher3.dbapi2.DatabaseError: file is not a database
+【2018-04-01 12:10:01,799 ERROR   : 】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\cipherDB.py", line 91, in write_db
+    );'''.format(table_name))
+pysqlcipher3.dbapi2.DatabaseError: file is not a database
+【2018-04-01 12:10:01,799 ERROR   : 】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\cipherDB.py", line 91, in write_db
+    );'''.format(table_name))
+pysqlcipher3.dbapi2.DatabaseError: file is not a database
+【2018-04-01 12:10:01,799 ERROR   : 】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\cipherDB.py", line 91, in write_db
+    );'''.format(table_name))
+pysqlcipher3.dbapi2.DatabaseError: file is not a database
+【2018-04-01 12:15:37,574 ERROR   : query_db:select_sqls】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\cipher_query_db.py", line 100, in query_db
+    cursor = c.execute(sql_stat)
+sqlite3.DatabaseError: file is encrypted or is not a database
+【2018-04-01 12:16:21,359 ERROR   : query_db:select_sqls】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\cipher_query_db.py", line 102, in query_db
+    cursor = c.execute(sql_stat)
+sqlite3.DatabaseError: file is encrypted or is not a database
+【2018-04-03 08:59:51,344 ERROR   : query_db:select_sqls】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\cipher_query_db.py", line 107, in query_db
+    cursor = c.execute(sql_stat)
+pysqlcipher3.dbapi2.OperationalError: near ")": syntax error
+【2018-04-03 10:24:53,723 ERROR   : set_config:encrypt_text】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\set_config.py", line 54, in encrypt_text
+    encryptor = AES.new(key, AES.MODE_CBC, IV)
+  File "H:\Dev\anaconda\lib\site-packages\Crypto\Cipher\AES.py", line 95, in new
+    return AESCipher(key, *args, **kwargs)
+  File "H:\Dev\anaconda\lib\site-packages\Crypto\Cipher\AES.py", line 59, in __init__
+    blockalgo.BlockAlgo.__init__(self, _AES, key, *args, **kwargs)
+  File "H:\Dev\anaconda\lib\site-packages\Crypto\Cipher\blockalgo.py", line 141, in __init__
+    self._cipher = factory.new(key, *args, **kwargs)
+ValueError: IV must be 16 bytes long
+【2018-04-03 10:48:32,639 ERROR   : 】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\SearchPage.py", line 342, in get_info
+    major = self.major+major1
+UnboundLocalError: local variable 'major1' referenced before assignment
+【2018-04-03 11:18:47,231 ERROR   : 】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\xls2db.py", line 229, in xls2db
+    conn = sqlite3.connect(db_file)
+sqlite3.OperationalError: unable to open database file
+【2018-04-04 08:54:10,707 ERROR   : 】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\SearchPage.py", line 127, in on_action_about_triggered
+    dialog = help_ui.setupUi(self)
+TypeError: setupUi() missing 1 required positional argument: 'Dialog'
+【2018-04-04 10:20:58,747 ERROR   : 】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\SearchPage.py", line 113, in on_action_softactivate_triggered
+    dialog = soft_activate.Dialog(self, None, self.src_file)
+TypeError: __init__() takes from 1 to 3 positional arguments but 4 were given
+【2018-06-26 21:25:29,089 ERROR   : 】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\cipher_xls2db.py", line 104, in write_db
+    c.executemany(sql, sheet_cont)
+pysqlcipher3.dbapi2.OperationalError: table tmp has 14 columns but 15 values were supplied
+【2018-06-26 21:28:46,558 ERROR   : 】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\cipher_xls2db.py", line 104, in write_db
+    c.executemany(sql, sheet_cont)
+pysqlcipher3.dbapi2.OperationalError: table tmp has 14 columns but 15 values were supplied
+【2018-06-26 21:32:14,811 ERROR   : 】
+Traceback (most recent call last):
+  File "D:\srcdata\python\college_wish\src\utils\cipher_xls2db.py", line 104, in write_db
+    c.executemany(sql, sheet_cont)
+pysqlcipher3.dbapi2.OperationalError: table tmp has 14 columns but 15 values were supplied
